@@ -159,4 +159,120 @@ job:
 
 ## 6. 최종 산출물 (8단계 출력 전문)
 
-(8단계 완료 후 추가)
+### 6.1 제안서 사이트 URL
+https://proposal-router.claude-ai-b27.workers.dev/proposal-smart-apt-network-saas/
+
+### 6.2 지원 금액
+40,500,000원
+
+### 6.3 지원 기간
+150일
+
+### 6.4 클라이언트 질문 답변
+해당 없음 (클라이언트 별도 질문 미제시).
+
+### 6.5 지원 내용 (전체 텍스트)
+
+```
+안녕하세요, B2B SaaS 기반 스마트 아파트 네트워크 관리 플랫폼 1차 구축 프로젝트에 지원합니다.
+
+본 프로젝트에 대한 상세 제안서(견적서, 공수계산서, PRD, 일정, 포트폴리오)를 별도 페이지로 준비하였습니다. 아래 링크에서 확인해 주시면 감사하겠습니다.
+▶ 제안서 상세 페이지: https://proposal-router.claude-ai-b27.workers.dev/proposal-smart-apt-network-saas/
+▶ 위시켓 포트폴리오: https://www.wishket.com/partners/p/blueverse1/
+
+---
+
+<프로젝트 진행 제안>
+
+■ 프로젝트 분석
+- 입주민 앱(iOS/Android), 아파트 관리자 웹(반응형), 내부 관리 시스템(반응형) 3-Surface를 단일 백엔드 API로 통합하는 멀티테넌트 B2B SaaS 1차 구축
+- 7개 도메인 모듈(인증/관리비 ERP/시설예약/전자투표/공지·푸시/건의·하자보수/BI/결제) 구현 + 5차 고도화 BI 확장 호환 데이터 모델 정립
+- 휴대폰 통합 로그인 + 동/호수 세대 인증 + 역할별 RBAC, PG·SMS·FCM 외부 API 안정 연동, '깔끔하고 댄디한' 디자인 가이드 적용
+- 동일 스택(Flutter+NestJS+Next.js) 멀티테넌트 B2B SaaS 운영 경험을 그대로 이식하여 1차 안정 기반을 보장
+
+■ 작업 일정
+
+[Phase 1] Day 1–25 (약 5주)
+- 상세 기획·설계: 요구사항/기능/화면/플로우 정의서, 정책 수립, DB 설계서, BI 연동 구조 설계서, 시스템 아키텍처
+
+[Phase 2] Day 20–50 (약 4주, Phase 1과 일부 병행)
+- UI/UX 디자인: 디자인 시스템, 입주민 앱 + 관리자 웹 + 내부 관리 시스템 Figma 원본 3종
+
+[Phase 3] Day 35–85 (약 7주)
+- 백엔드 + 인증/관리비 코어: NestJS 도메인 모듈, DB 1차 마이그레이션, 인증·RBAC·관리비·입주민 ERP API, 외부 SDK 1차 통합
+
+[Phase 4] Day 50–115 (약 9주)
+- 클라이언트 개발: Flutter 입주민 앱(iOS/Android) + Next.js 관리자 웹·내부 관리 시스템, 시설/투표/공지/건의/결제/BI 대시보드 완성
+
+[Phase 5] Day 115–150 (약 5주)
+- QA·안정화·배포: 통합 테스트, 보안 점검, 베타 검수, 스토어 등록, 운영 배포, 1개월 무상 하자보수
+
+■ 마일스톤 및 산출물
+- M1 (Day 25): 상세 기획·설계 산출물 클라이언트 승인 → 요구사항/기능/화면/DB/BI 연동 구조 설계서
+- M2 (Day 50): Figma 원본 3종 + 인증/관리비 API 데모 검수
+- M3 (Day 85): 주요 API 100% 완료, 입주민 앱·관리자 웹 알파 빌드 시연
+- M4 (Day 115): 전 기능 통합 베타 빌드, BI 대시보드 시연
+- M5 (Day 150): 운영 배포, 스토어 등록, 산출물 일괄 이관, 1개월 하자보수 시작
+
+■ 미팅 시 협의 필요 사항
+- PG사 선정 (KG이니시스 / 토스페이먼츠 등) 및 가맹점 계약 진행 시점
+- 본인인증 SDK 선정 (NICE / SCI평가정보) 및 키 발급 일정
+- 1차 적용 단지 범위 (단일 단지 베타 / 복수 단지 동시 출시)
+- 관리비 산정 시스템 연동 여부 (외부 시스템 연동 / 수기 입력 / 향후 단계 분리)
+- 앱 스토어 등록 명의 (클라이언트 명의 권장 / 당사 명의 등록 가능)
+- 운영 호스팅 환경 (AWS Seoul 리전 권장) 및 비용 부담 주체 확정
+- NDA 체결 시점 — 계약 체결 전 사전 NDA 가능
+
+---
+
+<유사 프로젝트 진행 경험>
+
+▶ 시니어 주간보호 통합 관리 플랫폼 (2025, 약 6개월)
+- 프로젝트 유형: B2B SaaS / 멀티테넌트 관리 플랫폼 / 헬스케어
+- 핵심 기능: 다중 시설(주간보호센터) 통합 관리, 종사자 모바일 앱 + 보호자 앱 + 관리자 웹, 6개 플랫폼 단일 코드베이스, FCM 실시간 푸시, AI 건강분석 BI 리포트
+- 유사점: 본 프로젝트와 동일한 Flutter+NestJS+Next.js 스택, 멀티테넌트 구조('다중 시설'→'다중 단지' 그대로 이식), 3-Surface 통합 + 단일 백엔드, RBAC 6역할 운영 경험
+- 기술 스택: Flutter 3.35, NestJS 10, Next.js 13, TypeORM, MySQL 8.0, AWS CDK, Docker, Firebase FCM, CASL RBAC
+
+▶ 기업용 전자결재 · 업무 관리 SaaS (2026, 약 9주)
+- 프로젝트 유형: B2B SaaS / 기업용 / 어드민 패널 + 외부 셀프서비스 포털
+- 핵심 기능: 다단계 결재 워크플로우 8종, 7종 사용자 역할별 6계층 보안, 50+ 페이지 어드민, Ppurio SMS·FCM·SMTP 12종 외부 서비스 통합
+- 유사점: 다중 역할 RBAC 운영(7역할→4역할 적용), 50+ 페이지 어드민 패널 구축 경험으로 BI 대시보드 패턴 확보, Ppurio SMS·FCM 등 외부 서비스 통합 운영
+- 기술 스택: NestJS 10, Next.js 13, MUI v5, TypeORM, MySQL 8.0, CASL, JWT+2FA, Ppurio SMS, FCM
+
+▶ VC 펀드 라이프사이클 관리 SaaS (2023.11~2024.12, 약 14개월)
+- 프로젝트 유형: B2B SaaS / 핀테크 / 대규모 데이터 + AI 보고서 + 규제
+- 핵심 기능: GP/LP/스타트업 3-tenant 멀티 포털, 80+ 데이터 엔티티, 179개 마이그레이션, 200~300+ API 엔드포인트, NICE KYC + 5중 보안, AI 투자심사보고서 자동 생성
+- 유사점: 80+ 엔티티·시계열 적재 설계 경험을 '5차 고도화 BI 확장' 요구사항에 직접 적용, NICE KYC + 결제 정산 + 5중 보안 운영 경험으로 PG·관리비 정산 안전성 확보
+- 기술 스택: NestJS 10, Next.js 13, MUI v5, MySQL, AWS, NICE KYC, ChatGPT API, CRDT(Yjs), DLP·GeoIP
+
+---
+
+<사용 기술과 툴>
+
+▶ 개발 기술
+- 프론트엔드 (앱): Flutter 3.x, Dart, BLoC, Clean Architecture, FCM Push
+- 프론트엔드 (웹): Next.js 14, TypeScript, MUI v5, React Query, Recharts/ECharts (BI)
+- 백엔드: NestJS 10, TypeScript, TypeORM, CASL RBAC, JWT + 2FA
+- 데이터베이스: MySQL 8.0, Redis (캐시·세션)
+- 외부 연동: PG (KG이니시스/토스페이먼츠), Ppurio SMS, Firebase FCM, NICE 본인인증
+- 인프라: AWS (ECS Fargate / RDS / S3 / CloudFront / Route 53), Docker, Nginx
+- 디자인: Figma (디자인 시스템 + 3 surface)
+
+▶ 개발 도구 및 인프라
+- 버전 관리: GitHub
+- CI/CD: GitHub Actions
+- 클라우드: AWS Seoul 리전
+- 컨테이너: Docker, ECS Fargate
+
+▶ 커뮤니케이션
+- 일일 진행 공유: Slack 또는 카카오톡
+- 주간 미팅: Zoom / Google Meet
+- 문서 공유: Notion 또는 Google Docs
+- 이슈 트래킹: GitHub Issues
+```
+
+### 6.6 관련 포트폴리오 추천 (위시켓 폼)
+
+1. **시니어 주간보호 통합 관리 플랫폼** — 동일 스택(Flutter+NestJS+Next.js), 멀티테넌트 B2B SaaS 구조, 6 플랫폼 단일 코드베이스 운영 경험
+2. **기업용 전자결재 · 업무 관리 SaaS** — 7종 RBAC, 50+ 페이지 어드민, 12종 외부 서비스 연동, B2B SaaS 빠른 딜리버리(504 PR/9주) 경험
+3. **VC 펀드 라이프사이클 관리 SaaS** — 80+ 엔티티 + 시계열 데이터 모델링, AI 보고서 자동 생성, 결제·KYC·5중 보안 운영 경험
